@@ -1,0 +1,20 @@
+substitutions:
+  _REGION: us-central1
+  _AR_REPO: jobs
+  _IMAGE: cronpy
+  _JOB: courierai-cron
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ["build","-t","${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_IMAGE}:$SHORT_SHA","."]
+
+  - name: gcr.io/cloud-builders/docker
+    args: ["push","${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_IMAGE}:$SHORT_SHA"]
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args: ["run","jobs","update","${_JOB}",
+           "--image","${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_IMAGE}:$SHORT_SHA",
+           "--region","${_REGION}"]
+images:
+  - "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_IMAGE}:$SHORT_SHA"
