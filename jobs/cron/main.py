@@ -8,8 +8,6 @@ def generate_unique_id():
 
 unique_id = generate_unique_id()
 
-##project_id = 'digest-a3589-default-rtdb'
-
 post_url = f'https://digest-a3589-default-rtdb.firebaseio.com/{unique_id}.json'
 
 current_date = (datetime.now() - timedelta(days=1)).strftime("%Y_%B_%-d")
