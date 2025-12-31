@@ -23,4 +23,9 @@ FEED_URLS=[
   "https://tobeadatascientist.substack.com/feed",
   "https://thedataguy.substack.com/feed",
   "https://fetchrss.com/feed/1vZCKd1Tg5gY1vZCKEEk66JW.rss", # sherwood news
+  "https://politepol.com/fd/PAgVWkHa5V7I.xml", # mercury
+  "https://politepol.com/fd/fJT7xqpGWzE5.xml" # stripe
+  "https://politepol.com/fd/jY6ljAsH1o8Q.xml" # plaid
+  "https://politepol.com/fd/Q8qKxaDyYENZ.xml" # stuut
+  "https://politepol.com/fd/pp6b9vf8xZXr.xml" # ramp builders
 ]
