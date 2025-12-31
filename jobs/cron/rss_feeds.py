@@ -21,10 +21,6 @@ FEED_URLS=[
   "https://read.futureproofds.com/feed",
   "https://seattledataguy.substack.com/feed",
   "https://tobeadatascientist.substack.com/feed",
-  "https://www.mostlymetrics.com/feed",
-  "https://www.dataengineeringweekly.com/feed",
-  "https://thedataengineeringpodcast.com/feed",
   "https://thedataguy.substack.com/feed",
-  "https://www.datascienceweekly.org/feed",
   "https://fetchrss.com/feed/1vZCKd1Tg5gY1vZCKEEk66JW.rss", # sherwood news
 ]
