@@ -1,4 +1,17 @@
 FEED_URLS=[
+  # fintech (do these actually work?)
+  "https://politepol.com/fd/PAgVWkHa5V7I.xml", # mercury
+  "https://politepol.com/fd/fJT7xqpGWzE5.xml", # stripe
+  "https://politepol.com/fd/jY6ljAsH1o8Q.xml", # plaid
+  "https://politepol.com/fd/Q8qKxaDyYENZ.xml", # stuut
+  "https://politepol.com/fd/pp6b9vf8xZXr.xml", # ramp
+  # markets
+  "https://fetchrss.com/feed/1vZCKd1Tg5gY1vZCKEEk66JW.rss", # sherwood news  
+  # food
+  "https://eaterny.substack.com/feed",
+  # general biz
+  "https://hnrss.org/newest?points=600", # hacker news
+  "https://www.economist.com/finance-and-economics/rss.xml", # the economist -- this should be posting daily
   "https://www.obsolete.pub/feed",
   "https://blog.eladgil.com/feed",
   "https://newsletter.posthog.com/feed",
@@ -21,12 +34,5 @@ FEED_URLS=[
   "https://read.futureproofds.com/feed",
   "https://seattledataguy.substack.com/feed",
   "https://tobeadatascientist.substack.com/feed",
-  "https://thedataguy.substack.com/feed",
-  "https://fetchrss.com/feed/1vZCKd1Tg5gY1vZCKEEk66JW.rss", # sherwood news
-  "https://politepol.com/fd/PAgVWkHa5V7I.xml", # mercury
-  "https://politepol.com/fd/fJT7xqpGWzE5.xml", # stripe
-  "https://politepol.com/fd/jY6ljAsH1o8Q.xml", # plaid
-  "https://politepol.com/fd/Q8qKxaDyYENZ.xml", # stuut
-  "https://politepol.com/fd/pp6b9vf8xZXr.xml", # ramp builders
-  "https://eaterny.substack.com/feed"
+  "https://thedataguy.substack.com/feed"
 ]
