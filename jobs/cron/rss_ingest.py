@@ -43,7 +43,7 @@ def _fetch_feed(url):
 
 def run(feed_urls, firebase_base_url):
     now=datetime.now(timezone.utc)
-    cutoff=now - timedelta(hours=24)
+    cutoff=now - timedelta(hours=12)
     print(f"RSS ingest starting: cutoff={cutoff.isoformat()}, feeds={len(feed_urls)}")
 
     items=[]

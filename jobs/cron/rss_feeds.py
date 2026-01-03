@@ -1,5 +1,5 @@
 FEED_URLS=[
-  # fintech (do these actually work?)
+  # fintech
   "https://politepol.com/fd/PAgVWkHa5V7I.xml", # mercury
   "https://politepol.com/fd/fJT7xqpGWzE5.xml", # stripe
   "https://politepol.com/fd/jY6ljAsH1o8Q.xml", # plaid
