@@ -5,6 +5,7 @@ FEED_URLS=[
   "https://politepol.com/fd/jY6ljAsH1o8Q.xml", # plaid
   "https://politepol.com/fd/Q8qKxaDyYENZ.xml", # stuut
   "https://politepol.com/fd/pp6b9vf8xZXr.xml", # ramp
+  "https://www.a16z.news/feed", # a16z
   # markets
   "https://fetchrss.com/feed/1vZCKd1Tg5gY1vZCKEEk66JW.rss", # sherwood news  
   # food
