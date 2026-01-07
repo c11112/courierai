@@ -35,5 +35,9 @@ FEED_URLS=[
   "https://read.futureproofds.com/feed",
   "https://seattledataguy.substack.com/feed",
   "https://tobeadatascientist.substack.com/feed",
-  "https://thedataguy.substack.com/feed"
+  "https://thedataguy.substack.com/feed",
+  "https://www.jeffgeerling.com/blog.xml",
+  "https://simonwillison.net/atom/everything/",
+  "https://www.seangoedecke.com/rss.xml",
+  "https://krebsonsecurity.com/feed/"
 ]
