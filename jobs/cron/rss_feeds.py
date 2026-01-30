@@ -27,7 +27,6 @@ FEED_URLS=[
   "https://medium.com/@greylockvc/feed",
   "https://www.construction-physics.com/feed",
   "https://www.sequoiacap.com/feed/",
-  "https://www.news.aakashg.com/feed",
   "https://blog.withmantle.com/feed/",
   "https://www.operatorshandbook.com/feed",
   "https://read.earlystagegrowth.com/feed",
